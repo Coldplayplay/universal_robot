@@ -317,5 +317,15 @@
       <child link="${prefix}tool0"/>
     </joint>
 
+
+    <!-- Connect tool0_controller to base using floating joint -->
+    <link name="${prefix}tool0_controller"/>
+    <joint name="${prefix}base-tool0_controller_floating_joint" type="floating">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <parent link="${prefix}base"/>
+      <child link="${prefix}tool0_controller"/>
+    </joint>
+
+
   </xacro:macro>
 </robot>

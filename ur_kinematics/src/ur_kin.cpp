@@ -45,12 +45,14 @@ namespace ur_kinematics {
   }
 
   void forward(const double* q, double* T) {
-    double s1 = sin(*q), c1 = cos(*q); q++;
-    double q234 = *q, s2 = sin(*q), c2 = cos(*q); q++;
-    double s3 = sin(*q), c3 = cos(*q); q234 += *q; q++;
+    double s1 = sin(*q), c1 = cos(*q); q++;   //q1
+    double q234 = *q; 
+    double s2 = sin(*q), c2 = cos(*q); q++;   //q2
+    double s3 = sin(*q), c3 = cos(*q);        //q3
     q234 += *q; q++;
-    double s5 = sin(*q), c5 = cos(*q); q++;
-    double s6 = sin(*q), c6 = cos(*q); 
+    q234 += *q; q++;                          //q4
+    double s5 = sin(*q), c5 = cos(*q); q++;   //q5
+    double s6 = sin(*q), c6 = cos(*q);        //q6
     double s234 = sin(q234), c234 = cos(q234);
     *T = ((c1*c234-s1*s234)*s5)/2.0 - c5*s1 + ((c1*c234+s1*s234)*s5)/2.0; T++;
     *T = (c6*(s1*s5 + ((c1*c234-s1*s234)*c5)/2.0 + ((c1*c234+s1*s234)*c5)/2.0) - 
