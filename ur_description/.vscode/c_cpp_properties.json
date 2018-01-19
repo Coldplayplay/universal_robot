@@ -1,0 +1,61 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/cbc/catkin_ws/devel/include",
+                    "/opt/ros/kinetic/include",
+                    "/home/cbc/catkin_ws/src/beginner_tutorials/include",
+                    "/home/cbc/catkin_ws/src/glasgow_calibration/calibration_glasgow/include",
+                    "/home/cbc/catkin_ws/src/clopema_certh_ros/camera_helpers/include",
+                    "/home/cbc/catkin_ws/src/clopema_certh_ros/certh_libs/include",
+                    "/home/cbc/catkin_ws/src/industrial_moveit/constrained_ik/include",
+                    "/home/cbc/catkin_ws/src/industrial_moveit/industrial_collision_detection/include",
+                    "/home/cbc/catkin_ws/src/iai_kinect2/kinect2_bridge/include",
+                    "/home/cbc/catkin_ws/src/iai_kinect2/kinect2_calibration/include",
+                    "/home/cbc/catkin_ws/src/iai_kinect2/kinect2_registration/include",
+                    "/home/cbc/catkin_ws/src/clopema_certh_ros/robot_helpers/include",
+                    "/home/cbc/catkin_ws/src/ros_pcl(pub&sub)/include",
+                    "/home/cbc/catkin_ws/src/rviz_show/include",
+                    "/home/cbc/catkin_ws/src/industrial_moveit/stomp_core/include",
+                    "/home/cbc/catkin_ws/src/industrial_moveit/stomp_moveit/include",
+                    "/home/cbc/catkin_ws/src/industrial_moveit/stomp_plugins/include",
+                    "/home/cbc/catkin_ws/src/ug_stereomatcher/include",
+                    "/home/cbc/catkin_ws/src/universal_robot/ur_kinematics/include",
+                    "/home/cbc/catkin_ws/src/ur_modern_driver/include",
+                    "/home/cbc/catkin_ws/src/clopema_certh_ros/viz_helpers/include",
+                    "/usr/include"
+                ]
+            },
+            "includePath": [
+                "/home/cbc/catkin_ws/devel/include",
+                "/opt/ros/kinetic/include",
+                "/home/cbc/catkin_ws/src/beginner_tutorials/include",
+                "/home/cbc/catkin_ws/src/glasgow_calibration/calibration_glasgow/include",
+                "/home/cbc/catkin_ws/src/clopema_certh_ros/camera_helpers/include",
+                "/home/cbc/catkin_ws/src/clopema_certh_ros/certh_libs/include",
+                "/home/cbc/catkin_ws/src/industrial_moveit/constrained_ik/include",
+                "/home/cbc/catkin_ws/src/industrial_moveit/industrial_collision_detection/include",
+                "/home/cbc/catkin_ws/src/iai_kinect2/kinect2_bridge/include",
+                "/home/cbc/catkin_ws/src/iai_kinect2/kinect2_calibration/include",
+                "/home/cbc/catkin_ws/src/iai_kinect2/kinect2_registration/include",
+                "/home/cbc/catkin_ws/src/clopema_certh_ros/robot_helpers/include",
+                "/home/cbc/catkin_ws/src/ros_pcl(pub&sub)/include",
+                "/home/cbc/catkin_ws/src/rviz_show/include",
+                "/home/cbc/catkin_ws/src/industrial_moveit/stomp_core/include",
+                "/home/cbc/catkin_ws/src/industrial_moveit/stomp_moveit/include",
+                "/home/cbc/catkin_ws/src/industrial_moveit/stomp_plugins/include",
+                "/home/cbc/catkin_ws/src/ug_stereomatcher/include",
+                "/home/cbc/catkin_ws/src/universal_robot/ur_kinematics/include",
+                "/home/cbc/catkin_ws/src/ur_modern_driver/include",
+                "/home/cbc/catkin_ws/src/clopema_certh_ros/viz_helpers/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 3
+}
